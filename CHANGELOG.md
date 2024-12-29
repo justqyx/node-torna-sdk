@@ -1,9 +1,23 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+### 0.1.1 (2024-12-29)
+
+
+### ✨ Features
+
+* support upload express app to torna api manage platform ([9bccb03](https://github.com//node_torna_sdk/commit/9bccb035e46fc2bdec6c4e8adab1d71fbbb9e857))
+
+
+### ✅ Tests
+
+* **index.js:** add unit test ([bb9f1fc](https://github.com//node_torna_sdk/commit/bb9f1fc25e3abd45b98029e1e71b1784a4329728))
+
+
+### 🎫 Chores
+
+* **commitizen:** integrated with commitizen ([8197789](https://github.com//node_torna_sdk/commit/81977893e4e46bb7c8c285ca2cfe779649201488))
 
 ## [0.1.0] - 2024-12-29
 

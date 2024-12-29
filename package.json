@@ -1,6 +1,6 @@
 {
   "name": "node-torna-sdk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Node.js SDK for uploading Express routes to Torna API documentation service",
   "author": "justqyx",
   "license": "MIT",
