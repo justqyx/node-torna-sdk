@@ -1,22 +1,38 @@
 {
   "name": "node-torna-sdk",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Node.js SDK for uploading Express routes to Torna API documentation service",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "author": "justqyx",
+  "license": "MIT",
   "keywords": [
     "torna",
     "api",
     "documentation",
     "express"
   ],
-  "author": "",
-  "license": "MIT",
+  "homepage": "https://github.com/justqyx/node-torna-sdk#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justqyx/node-torna-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/justqyx/node-torna-sdk/issues"
+  },
+  "main": "src/index.js",
+  "files": [
+    "src/",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "mocha test/**/*.test.js"
+  },
   "dependencies": {
     "axios": "^1.7.9",
     "dotenv": "^16.3.1",
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0"
   }
 }
