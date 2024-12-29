@@ -10,13 +10,13 @@
     "documentation",
     "express"
   ],
-  "homepage": "https://github.com/justqyx/node-torna-sdk#readme",
+  "homepage": "https://github.com/yourusername/node-torna-sdk#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/justqyx/node-torna-sdk.git"
+    "url": "git+https://github.com/yourusername/node-torna-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/justqyx/node-torna-sdk/issues"
+    "url": "https://github.com/yourusername/node-torna-sdk/issues"
   },
   "main": "src/index.js",
   "files": [
@@ -25,6 +25,7 @@
   ],
   "scripts": {
     "test": "mocha test/**/*.test.js",
+    "test:coverage": "nyc --reporter=lcov --reporter=text npm test",
     "commit": "git-cz",
     "release": "standard-version"
   },
@@ -38,11 +39,15 @@
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
     "mocha": "^10.2.0",
+    "nyc": "^15.1.0",
     "standard-version": "^9.5.0"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "engines": {
+    "node": ">=14"
   }
 }
